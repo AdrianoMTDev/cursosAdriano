@@ -1,0 +1,146 @@
+/* FONDO GENERAL */
+body {
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: #f8f9fa;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* NAVBAR */
+.navbar {
+    margin: 1rem 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(90deg, #1c1c1c, #2c3e50);
+    z-index: 1000;
+}
+
+/* TARJETA DE FORMULARIO */
+.card {
+    background: linear-gradient(135deg, #1c1c1c, #2c3e50); /* igual que navbar */
+    color: #f8f9fa;
+    border-radius: 1rem;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+    padding: 2.5rem 2rem;
+    width: 100%;
+}
+
+/* CAMPOS */
+.card .form-control,
+.card .form-select,
+.card textarea {
+    background-color: #2b2e33;
+    border: 1px solid #3d4349;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 0.65rem 0.75rem;
+    transition: all 0.3s ease;
+}
+
+.card .form-control:focus,
+.card .form-select:focus,
+.card textarea:focus {
+    background-color: #32363c;
+    border-color: #f1c40f;
+    box-shadow: 0 0 0 0.2rem rgba(241, 196, 15, 0.15);
+    color: #ffffff;
+}
+
+/* PLACEHOLDER */
+.card .form-control::placeholder,
+.card textarea::placeholder {
+    color: #bdbdbd;
+}
+
+/* ETIQUETAS */
+.card label.form-label {
+    color: #ffffff;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 0.35rem;
+    background: none;
+}
+
+
+
+/* TÍTULO DE MARCA */
+.brand-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #f1c40f;
+    margin-bottom: 1rem;
+}
+
+/* ENCABEZADOS */
+h1 {
+    color: #ffffff;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+/* PÁRRAFOS */
+p {
+    font-size: 1.1rem;
+    color: #dcdcdc;
+    margin-bottom: 2rem;
+}
+
+/* BOTONES */
+.btn-primary, .btn-success {
+    padding: 0.75rem 2rem;
+    font-size: 1.05rem;
+    border-radius: 30px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* SELECCIÓN DE TEXTO */
+::selection {
+    background-color: #f1c40f;
+    color: #fcfafa;
+}
+/* PANEL DE ADMINISTRACIÓN */
+.admin-panel {
+    background: linear-gradient(135deg, #1c1c1c, #2c3e50);
+    color: #f8f9fa;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.admin-panel h2 {
+    color: #f1c40f;
+    margin-bottom: 1.5rem;
+}
+
+/* TABLA ESTILIZADA */
+.table-dark-custom {
+    background-color: #2c2c2c;
+    color: #f0f0f0;
+}
+
+.table-dark-custom th,
+.table-dark-custom td {
+    vertical-align: middle;
+    border-color: #444;
+}
+
+/* BOTONES PEQUEÑOS DE ACCIONES */
+.table-dark-custom .btn-sm {
+    margin-right: 0.4rem;
+}
+
